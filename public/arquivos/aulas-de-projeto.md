@@ -1,3 +1,9 @@
+[https://forms.gle/UrM7DgHCEyLc34Zd9](Formulário dúvidas)
+
+
+
+
+
 #### Evolução da interação Homem-Computador e da autonomia dos sistemas
 
 
@@ -487,32 +493,4 @@ https://www.mindmeister.com/app/map/3168927884
 
 
 
-
-
-
-UC1 - Elaborar projetos de sistemas
-
-
-
-Luis:
-
-• Briefing: conceito e análise de projetos.
-
-• Sistemas e projetos de softwares: conceitos, processos e etapas.
-
-• Ciclo de vida do sistema: estudo de viabilidade, especificação de requisitos, concepções e padrões de projeto.
-
-• Regras de negócio: conceito e características, requisitos funcionais e não funcionais.
-
-
-
-André:
-
-• Plataformas: conceitos, tipos, características e especificações técnicas.
-
-• Sistemas orientados a objetos: fluxogramas de lógica de programação e linguagem de modelagem unificada.
-
-• Metodologias de desenvolvimento de software: tradicional (cascata) e interativas (RUP; ágeis: XP; SCRUM); ciclo de vida.
-
-• Documentações técnicas de software: características, aplicações, estrutura e interpretação
 

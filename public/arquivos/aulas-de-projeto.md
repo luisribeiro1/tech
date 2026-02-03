@@ -1,3 +1,165 @@
+#### Evolução da interação Homem-Computador e da autonomia dos sistemas
+
+
+
+
+
+**1ª Era: O Computador como "Fortaleza" (Operadores Especializados)**
+
+Nesta fase, o computador era uma máquina "quase sagrada" e distante.
+
+
+
+A dinâmica: O usuário comum não tocava na máquina. Ele escrevia o que precisava em formulários de papel e entregava ao Digitador ou Operador de Mainframe.
+
+
+
+O foco: Processamento em lote (Batch). Você entregava os dados hoje para receber o relatório a tarde ou amanhã.
+
+
+
+Linguagens:
+
+* COBOL: A rainha dos dados empresariais e bancos.
+* FORTRAN: Focada em cálculos científicos e engenharia.
+* Assembly: Para falar diretamente com o hardware da máquina.
+
+
+
+
+
+**2ª Era: O Computador como Ferramenta (Funcionários Operadores)**
+
+Com o surgimento dos PCs e terminais, a tecnologia foi para a mesa de quem trabalhava.
+
+
+
+A dinâmica: O administrativo, o contador e o vendedor passaram a "alimentar" o sistema enquanto trabalhavam.
+
+
+
+O foco: Eficiência interna. O software passou a ser o meio de trabalho, não apenas um repositório de dados.
+
+
+
+Linguagens:
+
+* C / C++: Para criar sistemas operacionais e softwares rápidos.
+* Pascal / Delphi: Muito usados para criar programas de gestão com janelas.
+* Visual Basic: Tornou a criação de formulários para empresas algo muito simples.
+
+
+
+
+
+**3ª Era: O Computador como Serviço (Autoatendimento)**
+
+A tecnologia saltou o muro da empresa e chegou ao cliente final.
+
+
+
+A dinâmica: O banco treinou o cliente para usar o Caixa Eletrônico; a loja treinou o cliente para usar o E-commerce.
+
+
+
+O foco: Conveniência e redução de custos operacionais (o cliente trabalha para a empresa).
+
+
+
+Linguagens:
+
+* Java: Prometeu o "escreva uma vez, rode em qualquer lugar" (ideal para bancos).
+* PHP / ASP: As linguagens que criaram os primeiros sites dinâmicos e e-commerces.
+* JavaScript: A linguagem que deu vida e interatividade às páginas web.
+
+
+
+
+
+**4ª Era: O Computador como Ecossistema (Sistemas que falam com Sistemas)**
+
+É a era da integração total (B2B), onde os humanos muitas vezes nem percebem a troca de dados.
+
+
+
+A dinâmica: APIs conectam tudo. Seu app de entrega conversa com o sistema do restaurante, que conversa com a operadora de cartão.
+
+
+
+O foco: Interoperabilidade e automação invisível.
+
+
+
+
+
+Tecnologias:
+
+* APIs REST, JSON, Docker, Cloud (AWS, Azure, Google Cloud).
+
+
+
+Linguagens:
+
+* Python: Pela sua simplicidade em lidar com dados e integrações.
+* Node.js: JavaScript rodando no servidor para aguentar milhares de conexões simultâneas.
+* Java, C#, GO, dentre outras
+
+
+
+**5ª Era: O Computador como Agente (A Era da IA)**
+
+Agora, o sistema não apenas recebe ordens, ele toma decisões e gera conteúdo.
+
+
+
+A dinâmica: A IA opera o sistema por nós. Ela não apenas guarda o dado, ela o interpreta, redige o e-mail, analisa o gráfico e sugere a estratégia.
+
+
+
+O foco: Autonomia e cognição artificial.
+
+
+
+Tecnologias:
+
+* Redes Neurais, LLMs (GPT, Gemini), GPUs (chips da NVIDIA), Vetorização de Dados.
+
+
+
+Linguagens:
+
+* Python: É a linguagem absoluta aqui (bibliotecas como PyTorch e TensorFlow).
+* R: Muito usada para a parte estatística pesada.
+* C++ / Rust: Usadas "nos bastidores" para garantir que a IA processe trilhões de dados com velocidade máxima.
+
+
+
+
+
+**Observação:** As eras 3 e 4 ocorrem simultaneamente.
+
+
+
+
+
+**Dois aspectos importantes:**
+
+
+
+**A Mobilidade (O fator "Sempre Comigo"):** Antes, o usuário ia até o sistema (caixa eletrônico ou PC). Com o smartphone, o sistema passou a perseguir o usuário 24h por dia.
+
+
+
+**O Cloud Computing (A Nuvem):** Os sistemas deixaram de estar "dentro" das máquinas físicas das empresas e passaram a ser serviços globais/remotos.
+
+
+
+
+
+
+
+
+
 #### Informática, computação ou TI?
 
 
@@ -80,7 +242,7 @@ Uma aplicação (ou Application) é um tipo de software feito especificamente pa
 
 **App: A Versão "Moderna" e Móvel**
 
-O termo App é apenas uma abreviação de "Application", mas que se popularizou com a chegada dos smartphones (iPhone e Android). Hoje, quando dizemos "app", geralmente nos referimos a algo mais leve, focado e que roda em dispositivos móveis ou na web.
+O termo App é apenas uma abreviação de "Application", mas que se popularizou com a chegada dos smartphones (iPhone e Android). Hoje, quando dizemos "app", geralmente nos referimos a algo mais leve, focado e que roda em dispositivos móveis ou na web (webapp).
 
 
 
@@ -159,102 +321,6 @@ Exemplos: o software da sua Smart TV, BIOS do computador, impressora, dentre out
 
 
 
-
-#### Evolução da interação Homem-Computador e da autonomia dos sistemas
-
-
-
-
-
-**1ª Era: O Computador como "Fortaleza" (Operadores Especializados)**
-
-Nesta fase, o computador era uma máquina "quase sagrada" e distante.
-
-
-
-A dinâmica: O usuário comum não tocava na máquina. Ele escrevia o que precisava em formulários de papel e entregava ao Digitador ou Operador de Mainframe.
-
-
-
-O foco: Processamento em lote (Batch). Você entregava os dados hoje para receber o relatório a tarde ou amanhã.
-
-
-
-
-
-**2ª Era: O Computador como Ferramenta (Funcionários Operadores)**
-
-Com o surgimento dos PCs e terminais, a tecnologia foi para a mesa de quem trabalhava.
-
-
-
-A dinâmica: O administrativo, o contador e o vendedor passaram a "alimentar" o sistema enquanto trabalhavam.
-
-
-
-O foco: Eficiência interna. O software passou a ser o meio de trabalho, não apenas um repositório de dados.
-
-
-
-
-
-**3ª Era: O Computador como Serviço (Autoatendimento)**
-
-A tecnologia saltou o muro da empresa e chegou ao cliente final.
-
-
-
-A dinâmica: O banco treinou o cliente para usar o Caixa Eletrônico; a loja treinou o cliente para usar o E-commerce.
-
-
-
-O foco: Conveniência e redução de custos operacionais (o cliente trabalha para a empresa).
-
-
-
-
-
-**4ª Era: O Computador como Ecossistema (Sistemas que falam com Sistemas)**
-
-É a era da integração total, onde os humanos muitas vezes nem percebem a troca de dados.
-
-
-
-A dinâmica: APIs conectam tudo. Seu app de entrega conversa com o sistema do restaurante, que conversa com a operadora de cartão.
-
-
-
-O foco: Interoperabilidade e automação invisível.
-
-
-
-
-
-**5ª Era: O Computador como Agente (A Era da IA)**
-
-Agora, o sistema não apenas recebe ordens, ele toma decisões e gera conteúdo.
-
-
-
-A dinâmica: A IA opera o sistema por nós. Ela não apenas guarda o dado, ela o interpreta, redige o e-mail, analisa o gráfico e sugere a estratégia.
-
-
-
-O foco: Autonomia e cognição artificial.
-
-
-
-
-
-Dois aspectos importantes:
-
-
-
-**A Mobilidade (O fator "Sempre Comigo"):** Antes, o usuário ia até o sistema (caixa eletrônico ou PC). Com o smartphone, o sistema passou a perseguir o usuário 24h por dia.
-
-
-
-**O Cloud Computing (A Nuvem):** Os sistemas deixaram de estar "dentro" das máquinas físicas das empresas e passaram a ser serviços globais/remotos. 
 
 
 
@@ -449,8 +515,4 @@ André:
 • Metodologias de desenvolvimento de software: tradicional (cascata) e interativas (RUP; ágeis: XP; SCRUM); ciclo de vida.
 
 • Documentações técnicas de software: características, aplicações, estrutura e interpretação
-
-
-
-
 

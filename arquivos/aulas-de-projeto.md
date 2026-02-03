@@ -10,7 +10,7 @@
 
 
 
-**1ª Era: O Computador como "Fortaleza" (Operadores Especializados)**
+###### **1ª Era: O Computador como "Fortaleza" (Operadores Especializados)**
 
 Nesta fase, o computador era uma máquina "quase sagrada" e distante.
 
@@ -24,7 +24,7 @@ O foco: Processamento em lote (Batch). Você entregava os dados hoje para recebe
 
 
 
-Linguagens:
+**Linguagens:**
 
 * COBOL: A rainha dos dados empresariais e bancos.
 * FORTRAN: Focada em cálculos científicos e engenharia.
@@ -34,7 +34,7 @@ Linguagens:
 
 
 
-**2ª Era: O Computador como Ferramenta (Funcionários Operadores)**
+###### **2ª Era: O Computador como Ferramenta (Funcionários Operadores)**
 
 Com o surgimento dos PCs e terminais, a tecnologia foi para a mesa de quem trabalhava.
 
@@ -48,7 +48,7 @@ O foco: Eficiência interna. O software passou a ser o meio de trabalho, não ap
 
 
 
-Linguagens:
+**Linguagens:**
 
 * C / C++: Para criar sistemas operacionais e softwares rápidos.
 * Pascal / Delphi: Muito usados para criar programas de gestão com janelas.
@@ -58,7 +58,7 @@ Linguagens:
 
 
 
-**3ª Era: O Computador como Serviço (Autoatendimento)**
+###### **3ª Era: O Computador como Serviço (Autoatendimento)**
 
 A tecnologia saltou o muro da empresa e chegou ao cliente final.
 
@@ -72,7 +72,7 @@ O foco: Conveniência e redução de custos operacionais (o cliente trabalha par
 
 
 
-Linguagens:
+**Linguagens:**
 
 * Java: Prometeu o "escreva uma vez, rode em qualquer lugar" (ideal para bancos).
 * PHP / ASP: As linguagens que criaram os primeiros sites dinâmicos e e-commerces.
@@ -82,7 +82,7 @@ Linguagens:
 
 
 
-**4ª Era: O Computador como Ecossistema (Sistemas que falam com Sistemas)**
+###### **4ª Era: O Computador como Ecossistema (Sistemas que falam com Sistemas)**
 
 É a era da integração total (B2B), onde os humanos muitas vezes nem percebem a troca de dados.
 
@@ -98,13 +98,13 @@ O foco: Interoperabilidade e automação invisível.
 
 
 
-Tecnologias:
+**Tecnologias:**
 
 * APIs REST, JSON, Docker, Cloud (AWS, Azure, Google Cloud).
 
 
 
-Linguagens:
+**Linguagens:**
 
 * Python: Pela sua simplicidade em lidar com dados e integrações.
 * Node.js: JavaScript rodando no servidor para aguentar milhares de conexões simultâneas.
@@ -112,7 +112,9 @@ Linguagens:
 
 
 
-**5ª Era: O Computador como Agente (A Era da IA)**
+
+
+###### **5ª Era: O Computador como Agente (A Era da IA)**
 
 Agora, o sistema não apenas recebe ordens, ele toma decisões e gera conteúdo.
 
@@ -126,13 +128,13 @@ O foco: Autonomia e cognição artificial.
 
 
 
-Tecnologias:
+**Tecnologias:**
 
 * Redes Neurais, LLMs (GPT, Gemini), GPUs (chips da NVIDIA), Vetorização de Dados.
 
 
 
-Linguagens:
+**Linguagens:**
 
 * Python: É a linguagem absoluta aqui (bibliotecas como PyTorch e TensorFlow).
 * R: Muito usada para a parte estatística pesada.

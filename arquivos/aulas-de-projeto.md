@@ -1,10 +1,4 @@
-[https://forms.gle/UrM7DgHCEyLc34Zd9](Formulário dúvidas)
-
-
-
-
-
-#### Evolução da interação Homem-Computador e da autonomia dos sistemas
+### Evolução da interação Homem-Computador e da autonomia dos sistemas
 
 
 
@@ -168,7 +162,7 @@ O foco: Autonomia e cognição artificial.
 
 
 
-#### Informática, computação ou TI?
+### Informática, computação ou TI?
 
 
 
@@ -216,7 +210,7 @@ O foco: Gestão, segurança, redes e infraestrutura. É garantir que a tecnologi
 
 
 
-#### Software, sistema, programa, aplicação, app, algoritmo, script, firmware
+### Software, sistema, programa, aplicação, app, algoritmo, script, firmware
 
 
 
@@ -300,7 +294,7 @@ Exemplos: o software da sua Smart TV, BIOS do computador, impressora, dentre out
 
 
 
-#### Júnior, pleno e sênior?
+### Júnior, pleno e sênior?
 
 
 
@@ -314,35 +308,7 @@ Exemplos: o software da sua Smart TV, BIOS do computador, impressora, dentre out
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#### 
-
-#### 
-
-#### 
-
-#### Ciclo de Vida da Informação
+### Ciclo de Vida da Informação
 
 
 
@@ -424,7 +390,7 @@ De acordo com a proposta acima, responda o formulário (https://forms.gle/Xa8xjp
 
 
 
-#### Briefing
+### Briefing
 
 
 
@@ -444,29 +410,11 @@ Idealmente ele deverá informar o problema a ser resolvido, o público-alvo, o o
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ===============================================
 
 
 
-#### Linguagens e tecnologias
+### Linguagens e tecnologias
 
 
 

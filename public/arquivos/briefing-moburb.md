@@ -83,11 +83,5 @@ Implementar um sistema de cartões inteligentes (NFC/RFID) e validadores embarca
 
 
 
-.
 
-Tenho quase certeza que meu pedreiro está caindo em um golpe. O golpe da mulher.
-
-Hoje ele me pediu um adiantamento para pagar o frete para trazer a mulher, queé de outro estado e que ele conheceu na internet. Nunca a viu pessoalmente, sempre manda dinheiro e quase sempre acontece alguma coisa na hora deles se conhecerem. Um forte cheiro de golpe.
-
-Tentei alertá-lo, mas um homem nesta fase as vezes não enxerga um palmo a frente do nariz.
 

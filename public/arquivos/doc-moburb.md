@@ -12,7 +12,7 @@
 
 
 
-O projeto SibeM nasce da necessidade de modernizar a mobilidade urbana, substituindo o pagamento em espécie pela bilhetagem eletrônica. O objetivo é criar um ecossistema digital onde o passageiro gerencia seus créditos e o transporte público opera com maior fluidez, segurança e precisão de dados.
+O projeto MobUrb nasce da necessidade de modernizar a mobilidade urbana, substituindo o pagamento em espécie pela bilhetagem eletrônica. O objetivo é criar um ecossistema digital onde o passageiro gerencia seus créditos e o transporte público opera com maior fluidez, segurança e precisão de dados.
 
 
 

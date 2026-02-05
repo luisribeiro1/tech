@@ -4,7 +4,7 @@ import { HashRouter } from 'react-router-dom'
 
 import './index.css'
 import App from './App.jsx'
-import 'bootswatch/dist/sandstone/bootstrap.min.css';
+import 'bootswatch/dist/flatly/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 
 createRoot(document.getElementById('root')).render(

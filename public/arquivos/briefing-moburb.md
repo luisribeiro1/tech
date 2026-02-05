@@ -81,7 +81,3 @@ Implementar um sistema de cartões inteligentes (NFC/RFID) e validadores embarca
 
 **Nota de Implementação:** O sistema deve ser desenhado para operar em regime híbrido. Ou seja, a validação do cartão deve ocorrer de forma offline (direto no hardware da catraca) para garantir o embarque mesmo em zonas de sombra de sinal de internet, sincronizando os dados assim que a conexão for restabelecida.
 
-
-
-
-

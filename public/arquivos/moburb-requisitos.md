@@ -8,7 +8,7 @@
 
 
 
-Conjunto de atividades com as seguintes etapas:
+Disciplina da Engenharia de Software que é composta por um conjunto de atividades com as seguintes etapas:
 
 * **Levantamento de requisitos:** Obter todas as informações possíveis e necessárias para as etapas seguintes. Começa com o briefing.
 * **Análise ou refinamento:** Discussão, negociação, ajustes e definição dos requisitos.
@@ -22,6 +22,8 @@ Os requisitos se dividem em:
 
 * **Requisitos Funcionais (RF):** Descrevem o que o sistema deve fazer
 * **Requisitos Não Funcionais (RNF):** Definem a qualidade do sistema
+
+
 
 
 

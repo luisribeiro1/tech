@@ -3,7 +3,7 @@ import Navbar from './components/Navbar'
 import Home from './pages/Home'
 import Briefing from './pages/Briefing'
 import Aulas from './pages/Aulas'
-import Documentacao from './pages/Documentacao'
+import Requisitos from './pages/Requisitos'
 
 export default function App() {
   return (
@@ -14,7 +14,7 @@ export default function App() {
           <Route path="/" element={<Aulas />} />
           <Route path="/briefing" element={<Briefing />} />
           <Route path="/aulas" element={<Aulas />} />
-          <Route path="/documentacao" element={<Documentacao />} />
+          <Route path="/requisitos" element={<Requisitos />} />
         </Routes>
       </div>
     </>

@@ -221,7 +221,7 @@ O sistema deve oferecer recarga por múltiplos canais:
 
 
 
-O sistema embarcado deve:
+O sistema deve:
 
 
 
@@ -305,7 +305,7 @@ O sistema deve:
 
 
 * Armazenar transações localmente no validador.
-* Sincronizar dados automaticamente quando houver conexão Wi-Fi (na garagem) ou 4G/5G.
+* Sincronizar dados automaticamente quando houver conexão Wi-Fi (na garagem, por exemplo) ou 4G/5G.
 * Garantir integridade e evitar duplicidade de transações.
 
 
@@ -407,7 +407,7 @@ Os requisitos que definem a qualidade do sistema:
 
 * **RNF-01: Disponibilidade:** O validador deve funcionar offline (caso o ônibus perca o sinal de internet), validando o saldo gravado no chip do cartão.
 * **RNF-02: Segurança:** Criptografia de ponta a ponta para evitar clonagem de cartões.
-* **RNF-03: Performance:** O tempo de resposta da catraca não deve exceder $500ms$.
+* **RNF-03: Performance:** O tempo de resposta da catraca não deve exceder 5 segundos.
 * **RNF-04: Robustez:** O hardware embarcado deve resistir a vibrações, calor e poeira.
 * **RNF-05: Escalabilidade:** Suportar crescimento de usuários, linhas e veículos sem degradação perceptível.
 * **RNF-06: Conformidade Legal:** Adequação à LGPD (dados pessoais e biométricos).

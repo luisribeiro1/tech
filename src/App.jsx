@@ -4,6 +4,7 @@ import Home from './pages/Home'
 import Briefing from './pages/Briefing'
 import Aulas from './pages/Aulas'
 import Requisitos from './pages/Requisitos'
+import CasoUso from './pages/CasoUso'
 
 export default function App() {
   return (
@@ -15,6 +16,7 @@ export default function App() {
           <Route path="/briefing" element={<Briefing />} />
           <Route path="/aulas" element={<Aulas />} />
           <Route path="/requisitos" element={<Requisitos />} />
+          <Route path="/caso-uso" element={<CasoUso />} />
         </Routes>
       </div>
     </>

@@ -14,6 +14,9 @@ export default function Menu1() {
             <Link className="list-group-item list-group-item-action" to="/requisitos">
                 <ChevronsRight size={20} /> MobUrb - Requisitos
             </Link>
+            <Link className="list-group-item list-group-item-action" to="/caso-uso">
+                <ChevronsRight size={20} /> MobUrb - Caso de uso
+            </Link>
         </ul>
     )
 }

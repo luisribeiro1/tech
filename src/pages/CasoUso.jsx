@@ -2,13 +2,13 @@ import React, { useState, useEffect } from 'react';
 import ReactMarkdown from 'react-markdown';
 import Menu1 from '../components/Menu1';
 
-function Documentacao() {
+function CasoUso() {
   const [content, setContent] = useState('');
 
   useEffect(() => {
 
     // Supondo que o arquivo esteja em public/posts/meu-texto.md e isso
-    fetch(`${import.meta.env.BASE_URL}arquivos/moburb-requisitos.md`)
+    fetch(`${import.meta.env.BASE_URL}arquivos/moburb-caso-de-uso.md`)
       .then((res) => res.text())
       .then((text) => setContent(text));
   }, []);
@@ -29,4 +29,4 @@ function Documentacao() {
   );
 }
 
-export default Documentacao;
+export default CasoUso;

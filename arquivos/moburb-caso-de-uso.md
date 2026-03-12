@@ -1,4 +1,14 @@
-## Caso de uso
+## UML - Caso de Uso
+
+
+
+###### MobUrb - Plataforma de dados para Mobilidade Urbana
+
+
+
+ 
+
+
 
 
 
@@ -296,3 +306,249 @@ Os pilares:
 
 
 
+#### UC-10: Validar Acesso no Ônibus (RF-05)
+
+
+
+
+
+**Atores:** Passageiro, Sistema Embarcado
+
+**Pré-condição:** Validador operacional e com energia
+
+**Fluxo Principal:**
+
+
+
+1. Passageiro aproxima cartão do validador
+2. Sistema lê UID do cartão (máx. 1 segundo)
+3. Sistema verifica em cache local:
+   Cartão ativo? (não bloqueado)
+   Saldo suficiente?
+   Dentro do período de integração? (RF-07)
+4. Se tudo OK, sistema:
+5. Debita tarifa correspondente
+6. Libera catraca
+7. Emite sinal sonoro/visual de "Acesso Liberado"
+8. Registra transação localmente
+9. Tempo total: ≤ 3 segundos
+
+
+
+**Fluxos Alternativos:**
+
+
+
+* 3a. Cartão bloqueado: Som vermelho, display "Cartão Bloqueado"
+* 3b. Saldo insuficiente: Som vermelho, display "Saldo Insuficiente"
+* 3c. Em integração: Som especial, display "Integração"
+
+
+
+#### UC-11: Sincronizar Dados do Validador (RF-08)
+
+
+
+**Atores:** Sistema (automático), Motorista
+
+Fluxos Possíveis:
+
+
+
+**Automático (Wi-Fi/4G):**
+
+
+
+1. Validador detecta conexão disponível
+2. Sistema envia transações pendentes
+3. Sistema recebe atualizações (cartões bloqueados, tarifas)
+4. Sistema confirma sincronização completa
+
+
+
+**Manual (Garagem):**
+
+
+
+1. Motorista conecta validador à estação na garagem
+2. Sistema detecta conexão física
+3. Operador inicia sincronização manual
+4. Sistema transfere todos os dados pendentes
+5. Sistema atualiza firmware se necessário
+
+
+
+#### UC-12: Configurar Tarifas (RF-06)
+
+
+
+**Atores:** Administrador, Gestor público
+
+Fluxo Principal:
+
+
+
+* Sistema exibe matriz tarifária atual
+* Administrador seleciona "Nova Tarifa" ou "Editar"
+* Sistema apresenta parâmetros configuráveis:
+* Valor base
+* Categorias beneficiadas
+* Linhas/regiões aplicáveis
+* Horários de vigência
+* Regras de integração (RF-07)
+* Administrador define regras e valida
+* Sistema aplica validações de consistência
+* Sistema agenda vigência (imediatamente ou futura)
+* Sistema notifica validadores na próxima sincronização
+
+
+
+**Regra Especial:** Alterações tarifárias exigem dupla aprovação para valores acima de limite
+
+
+
+#### UC-13: Gerenciar Integração Tarifária (RF-07)
+
+
+
+**Atores:** Sistema (automático)
+
+Fluxo Principal:
+
+
+
+* Passageiro realiza primeira validação
+* Sistema registra horário, linha e valor cobrado
+* Passageiro tenta nova validação dentro de 90 minutos
+* Sistema verifica:
+* Mesmo cartão?
+* Dentro do período de integração?
+* Linha diferente da anterior?
+* Se todas condições OK:
+* Sistema cobra valor reduzido ou zero
+* Registra como "Integração"
+* Atualiza horário da última validação
+
+
+
+#### UC-14: Gerar Relatório Personalizado (RF-10)
+
+
+
+**Atores:** Administrador, Gestor público
+
+Fluxo Principal:
+
+
+
+* Sistema exibe painel com tipos de relatório:
+* Operacional (passageiros/hora, ônibus, linha)
+* Financeiro (receita, estornos, médias)
+* Estatístico (demanda, integrações, fraudes)
+* Usuário seleciona tipo e define parâmetros:
+* Período
+* Linhas/regiões
+* Tipo de tarifa
+* Formato de saída (PDF, CSV, XLS)
+* Sistema processa e gera relatório
+* Sistema permite visualização prévia
+* Usuário baixa ou agenda envio periódico
+
+
+
+#### UC-15: Monitorar Operação em Tempo Real (RF-09)
+
+
+
+**Atores:** Administrador, Operador
+
+Fluxo Principal:
+
+
+
+* Sistema exibe mapa/dashboard com:
+* Ônibus ativos (GPS)
+* Validadores online/offline
+* Alertas de falha
+* Transações por minuto
+* Sistema destaca em cores:
+* Verde: Operação normal
+* Amarelo: Alerta (ex: validador lento)
+* Vermelho: Crítico (ex: validador inativo)
+* Usuário pode clicar em qualquer ônibus para ver:
+* Últimas validações
+* Status do hardware
+* Conexão atual
+* Sistema gera alertas automáticos para suporte técnico
+
+
+
+#### UC-16: Gerenciar Perfis de Acesso (RF-11)
+
+
+
+**Atores:** Administrador do sistema
+
+Fluxo Principal:
+
+
+
+* Sistema lista todos os usuários com perfis
+* Administrador seleciona usuário ou cria novo
+* Sistema exibe matriz de permissões por módulo:
+* Módulo Passageiros: Ler/Editar/Criar/Excluir
+* Módulo Financeiro: Apenas Leitura ou Total
+* Módulo Relatórios: Tipos permitidos
+* Módulo Configuração: Acesso negado/permitido
+* Administrador define perfil personalizado ou usa template
+* Sistema valida conflitos de permissão
+* Sistema notifica usuário sobre novas permissões
+
+
+
+#### UC-17: Auditar Operações do Sistema (RF-12)
+
+
+
+**Atores:** Administrador, Auditor externo
+
+Fluxo Principal:
+
+
+
+* Sistema exibe interface de logs com filtros avançados
+* Usuário aplica filtros por:
+* Tipo de operação (financeira, cadastral, etc.)
+* Usuário executor
+* Período
+* CPF/cartão específico
+* Sistema apresenta linha do tempo de eventos
+* Para cada evento, sistema mostra:
+* Quem fez
+* O que fez
+* Quando
+* Dados antes/depois (se aplicável)
+* IP/Dispositivo de origem
+* Sistema permite exportar auditoria para investigação
+
+
+
+#### UC-18: Detectar Padrões Suspeitos (RF-12)
+
+**Atores:** Sistema (automático)
+
+Fluxo Principal:
+
+
+
+* Sistema analisa transações em tempo real
+* Sistema aplica regras de detecção:
+* Múltiplas validações em curto intervalo (ex: 10 em 2 minutos)
+* Uso em linhas distantes em tempo impossível
+* Tentativas com cartões bloqueados
+* Padrões de recarga e uso rápido
+* Se detecta anomalia:
+* Sistema registra alerta
+* Notifica administrador (nível conforme gravidade)
+* Sugere ações (bloqueio temporário, investigação)
+* Sistema aprende com falsos positivos para melhorar detecção

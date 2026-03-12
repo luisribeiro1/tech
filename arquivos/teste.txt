@@ -1,0 +1,26 @@
+Estrutura Básica
+<!DOCTYPE>
+Declara a versão do HTML para o navegador.
+<html>
+O elemento pai que envolve todo o documento.
+<head>
+Contém metadados (não visíveis na página).
+<title>
+Título que aparece na aba do navegador.
+<body>
+Onde fica todo o conteúdo visual da página.
+
+Estrutura Semântica
+
+<header>
+Cabeçalho de uma página ou seção específica.
+<nav>
+Define blocos de links de navegação.
+<main>
+O conteúdo principal e exclusivo do documento.
+<section>
+Representa uma seção genérica de conteúdo.
+<article>
+Conteúdo independente (post, notícia, comentário).
+<footer>
+Rodapé com informações de autor ou copyright.

@@ -1,10 +1,12 @@
-## MobUrb - Plataforma de dados para Mobilidade Urbana
+## Engenharia de requisitos
 
 
 
+###### MobUrb - Plataforma de dados para Mobilidade Urbana
 
 
-### Engenharia de requisitos
+
+&nbsp;
 
 
 
@@ -133,23 +135,7 @@ O sistema deve permitir:
 
 
 
-O sistema deve oferecer recarga por múltiplos canais:
-
-
-
-* Aplicativo mobile
-* Portal web
-* Pontos físicos autorizados
-
-
-
-**Regras associadas:**
-
-
-
-* Recargas online devem ser refletidas no sistema central imediatamente.
-* Em modo offline, o crédito deve ser sincronizado no próximo contato do cartão com um validador online.
-* Suporte a diferentes meios de pagamento (PIX, cartão, dinheiro nos pontos físicos).
+* \[atividade]
 
 
 
@@ -218,13 +204,7 @@ O sistema deve permitir:
 
 
 
-O sistema deve:
-
-
-
-* Permitir integração tarifária dentro de um período configurável (ex: 90 minutos).
-* Registrar as integrações realizadas.
-* Impedir cobranças duplicadas indevidas.
+* \[atividade]
 
 
 
@@ -236,13 +216,7 @@ O sistema deve:
 
 
 
-O sistema deve:
-
-
-
-* Armazenar transações localmente no validador.
-* Sincronizar dados automaticamente quando houver conexão Wi-Fi (na garagem, por exemplo) ou 4G/5G.
-* Garantir integridade e evitar duplicidade de transações.
+* \[atividade]
 
 
 
@@ -272,14 +246,7 @@ O sistema deve permitir:
 
 
 
-O sistema deve gerar relatórios:
-
-
-
-* Operacionais (passageiros por linha, horário, veículo)
-* Financeiros (receita por período, tipo de tarifa)
-* Estatísticos (picos de demanda, taxa de integração)
-* Exportáveis (PDF, CSV, XLS)
+* \[atividade]
 
 
 
@@ -291,23 +258,7 @@ O sistema deve gerar relatórios:
 
 
 
-O sistema deve possuir controle de acesso com perfis:
-
-
-
-* Administrador do sistema
-* Operador da empresa
-* Gestor público
-* Ponto de recarga
-
-
-
-**Regras associadas:**
-
-
-
-* Cada perfil deve ter permissões específicas.
-* Todas as ações administrativas devem ser auditáveis.
+* \[atividade]
 
 
 
